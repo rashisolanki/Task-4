@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+body{
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+.navbar-brand{
+    margin-left: 5%;
+    color: #1e4b7a !important;
+}
+.nav-item{
+    margin-right: 7px;
+}
+.row1{
+    margin-top: 8%;
+    text-align: center;
+}
+.heading{
+    margin: 0px;
+    color: #1e4b7a;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+p{ 
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.btn{
+    color: #fff;
+    background-color: rgb(42, 114, 190) !important;
+    width: 8.5rem;
+}
+.row2{
+    margin-top: 4%;
+    align-content: center;
+    align-self: center;
+  justify-self: center;
+}
+.card{
+    margin: 5%;
+    border-radius: 0.5rem !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+.card-body{
+    margin: 10px;
+}
+.card-text{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+}
+.icon{
+    margin: 22px 10px 10px 10px;
+    height: 35px;
+    width: 35px;
+    color: #2a72be;
+}
+
+@media(max-width: 455px){
+    .heading{
+        font-size: 1.6rem;
+    }
+}
